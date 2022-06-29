@@ -8,15 +8,15 @@ Console.WriteLine ("введите число:");
 string number1 = Console.ReadLine();
 Zadacha13(number1);
 
-void Zadacha13(string currentnumber)
+void Zadacha13(string number1)
 {
-    if (currentnumber.Length < 3)
+    if (number1.Length < 3)
     {
         Console.WriteLine("третьей цифры нет");
     }
-    else if (currentnumber[2] !=0)
+    else if (number1[2] !=0)
     {
-        Console.WriteLine(currentnumber[2]);
+        Console.WriteLine(number1[2]);
     }
 
     }
