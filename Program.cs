@@ -4,6 +4,24 @@
 //78 -> третьей цифры нет
 //32679 -> 6
 
+Console.WriteLine ("введите число:");
+string number1 = Console.ReadLine();
+Zadacha13(number1);
+
+void Zadacha13(string currentnumber)
+{
+    if (currentnumber.Length < 3)
+    {
+        Console.WriteLine("третьей цифры нет");
+    }
+    else if (currentnumber[2] !=0)
+    {
+        Console.WriteLine(currentnumber[2]);
+    }
+
+    }
+
+
 
 
 //Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, 
